@@ -11,6 +11,8 @@ const CurrentRecords = () => {
     const searchMyRecords = () => {
         console.log("dwwe", myValue)
 
+        // https://aaee05d3-afa1-4c57-88c2-89535a1c0b88.ws-us02.gitpod.io/traindata
+
         fetch('https://3000-a8e8103b-38a9-441b-a8b2-d02d84f3caf2.ws-us02.gitpod.io/traindata', {
             method: 'POST',
             body:JSON.stringify({
